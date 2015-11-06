@@ -1,0 +1,23 @@
+/* 
+ * File:   main.cpp
+ * Author: tatiane
+ *
+ * Created on 29 de Outubro de 2015, 17:48
+ */ 
+//Fazer um algoritmo para: entrar com um n¨²mero no formato CDU e imprimir invertido:
+//UDC (Exemplo: 123, sair¨¢ 321). O n¨²mero dever¨¢ ser armazenado em outra vari¨¢vel
+//antes de ser impresso.
+ 
+int main(){
+    int num,aux1=0,aux2=0,aux3=0;
+    printf("digite um numero com 3 algarismo : ");
+    scanf("%i",&num);
+    aux1 = num/100;
+    aux2 = (num%100)/10;
+    aux3 = (num%100)%10;
+    printf("\n\nO numero invertido e : %i%i%i\n\n",aux3,aux2,aux1);
+ 
+ 
+}
+
+
